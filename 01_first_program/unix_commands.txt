@@ -7,3 +7,9 @@
 6. clear - clears the terminal
 7. gcc <file_name.c (source code file)> - compiles the C program. Creates a ./a.out file.
 8. ./a.out run excutable file
+Git commands
+9. git status
+10. git add
+10.1 git add.
+11. git commit
+git push
