@@ -14,8 +14,8 @@ int main(void){
     if (grade >=60); {
         puts("passed");
     }
-    if (grade < 60);
-     {puts("Failed");
+    if (grade >60);{
+        puts("Failed");
     }
 
     return 0;
