@@ -19,5 +19,10 @@ int main(void){
     for( int h = 0; h <= 100; h++){
     printf("Hi!\n");
 }
+    printf("for loop pratice 4:\n");
+    for(int i = 20; i >= -10; i -= 6){
+        printf("%d\n", i);
+    }
+    
 return 0;
 }
