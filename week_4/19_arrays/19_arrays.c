@@ -1,11 +1,13 @@
 /*
 
-
+Intro into arrays
 
 */
 #include <stdio.h>
 
-#define SIZE 1000
+#define SIZE 10
+
+void printArray(int* arr, int size);
 
 int main(void){
 
@@ -22,11 +24,15 @@ int main(void){
     for(int i = 0; i < SIZE; i++){
         arr[i] = (i + 1) * 10;
     }
-
- 
-    
-    for (int i = 0; i < SIZE; i++){
-        printf("%d ", arr[i]);
-    }
+    //print array
+    printArray(arr, SIZE);
     return 0;
+}
+
+void printArray(int* arr, int size){
+    printf("%c", '[');
+       for (int i = 0; i < size; i++){
+        printf("%d ", arr[i]);
+    } 
+    puts("]");
 }
