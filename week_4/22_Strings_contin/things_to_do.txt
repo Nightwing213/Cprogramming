@@ -1,0 +1,11 @@
+/*
+Notes:
+to end a string the character needs to be '\0'.
+
+Things to do
+
+study for second exam for monday,
+
+
+**do not buy dad anything else until he repays me!!!**
+*/

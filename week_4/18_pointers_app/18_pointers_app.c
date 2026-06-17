@@ -11,13 +11,15 @@ void swap(int* a, int* b);
 
 int main(void){
     int a = 10;
-
+    int b = 20;
     printf("a before %d - %p\n", a, &a);
     setToZero(&a);
     printf("a after %d\n", a);
 
     // todo test the swap function
-   // swap()
+    printf("Before swap: a = %d, b = %d\n", a, b);
+    swap(&a, &b);
+    printf("After swap: a = %d, b = %d\n", a, b);
 
     return 0;
 }
