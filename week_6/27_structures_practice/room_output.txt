@@ -1,0 +1,10 @@
+Room Information
+----------------
+Wall count: 4
+
+Wall 1: 10.60 x 23.40, Perimeter = 68.00
+Wall 2: 11.60 x 22.40, Perimeter = 68.00
+Wall 3: 12.60 x 21.40, Perimeter = 68.00
+Wall 4: 13.60 x 20.40, Perimeter = 68.00
+
+Total walls perimeter: 272.00
